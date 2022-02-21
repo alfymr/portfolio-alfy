@@ -1,9 +1,10 @@
-import Navbar from "./Navbar";
 import Button from "./Button";
+import Navbar from "./Navbar";
+import "../App.css";
 
 function HeroSection() {
 	return (
-		<div className="bg-cyan-500 h-[550px]">
+		<div className="bg-cyan-300 rounded-b-[150px] h-[550px]">
 			<div className="container mx-auto">
 				<Navbar />
 				<div className="text-center mt-16">
